@@ -10,8 +10,6 @@ const store = configureStore({
         iceCream: iceCreamReducer,
         user: userReducer
     },
-
-    // middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(logger)
 })
 
 export default store
